@@ -5,15 +5,39 @@
 
 }
 
+body{
+    color: white;
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif; ;
+}
+
 
 .box{
-    min-height: 100px;
+    /* height: 100%; */
+    min-height: 30px;
+    display: flex;
 }
+
+.vv_color-black{
+    color: black;
+}
+
+.vv_display-flex{
+    display: flex;
+}
+
 
 /* REGOLE DELL'HEADER */
 
 header{
     background-color: #2c3e50;
+}
+
+header i{
+    font-size: 30px;
+    color: #92908e;
+    border: 2px solid #92908e;
+    padding: 6px 10px;
+    border-radius: 5px;
 }
 
 /* REGOLE DEL MAIN */
@@ -25,10 +49,33 @@ header{
     background-color: #3a546d;
 }
 
+.vv_bg-color-green h6{
+    font-size: 0.8rem;
+    
+
+}
+
+
+
+/* INFO-SITE */
+
+i{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
 
 
 /* REGOLE DEL FOOTER */
 
 footer{
     background-color: #2c3e50;
+    font-size: 0.6rem;
+}
+
+.vv_h-100px{
+    height: 100px;
+
 }
