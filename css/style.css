@@ -21,6 +21,10 @@ body{
     color: black;
 }
 
+.vv_form-color{
+    color: #3b4c5d;
+}
+
 .vv_display-flex{
     display: flex;
 }
@@ -48,6 +52,10 @@ header i{
     padding: 4px 6px;
     border-radius: 5px;
 }
+header h6{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
 
 /* REGOLE DEL MAIN */
 
@@ -59,6 +67,11 @@ header i{
 }
 /* JUMBO */
 
+.jumbo h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 
 
 .vv_bg-color-green h6{
@@ -66,24 +79,61 @@ header i{
 }
 
 .jumbo .fa-solid, .portfolio .fa-solid{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .jumbo .fa-minus, .portfolio .fa-minus{
     transform: scale(2.5,1);
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 /* ABOUT */
 
-.about .fa-solid{
-    font-size: 1.6rem;
+.about .fa-solid, .contact-me .fa-solid{
+    font-size: 1.3rem;
 }
 
-.about .fa-minus{
-    transform: scale(3,1);
-    margin: 0 35px;
+.about .fa-minus, .contact-me .fa-minus{
+    transform: scale(2,1);
+    margin: 0 10px;
 }
+.about h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* CONTACT ME */
+
+input[type=text] {
+    width: 100%;
+    /* padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+  }
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid lightgrey;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 
 
