@@ -29,6 +29,7 @@ body{
 
 .vv_display-flex{
     display: flex;
+    z
 }
 
 
@@ -148,8 +149,57 @@ main{
 .portfolio img{
     width: 100%;
     border-radius: 10px;
+    /* margin: 10px 0; */
+}
+
+.portfolio .box:hover .overlay{
+    opacity: 0.5;
+}
+
+.portfolio .box{
+    position: relative;
+    border-radius: 10px;
     margin: 10px 0;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: green;
+    border-radius: 10px;
+  }
+  
+  .img-portfolio:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .portfolio .box:hover .icon{
+    opacity: 1;
+  }
+  
+  .icon {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+  }
+
+  .portfolio .fa-plus{
+    font-size: 4rem;
+  }
+
+
 
 /* ABOUT */
 
