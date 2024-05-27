@@ -59,6 +59,34 @@ header h6{
     font-weight: bold;
 }
 
+#menu-esteso{
+    display: none;
+    
+}
+
+#menu-esteso a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+
+@media all and (min-width: 768px) {
+    #menu-esteso{
+        display: flex;
+    }
+
+    #hamburgher-menu{
+        display: none;
+    }
+}
+
+
+
+
+
+
 /* REGOLE DEL MAIN */
 main{
     margin-top: 5rem;
@@ -104,6 +132,17 @@ main{
     margin: 0 auto;
 }
 
+@media all and (min-width: 768px) {
+    .jumbo h1{
+        font-size: 2rem;
+        
+    }
+    .vv_bg-color-green h6{
+        font-size: 1.2rem;
+    }
+}
+
+
 /* PORTFOLIO */
 
 .portfolio img{
@@ -130,6 +169,7 @@ main{
 .about button{
     width: 120px;
     height: 40px;
+    text-align: center;
 }
 
 .about button .box{
